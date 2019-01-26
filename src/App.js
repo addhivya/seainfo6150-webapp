@@ -1,10 +1,25 @@
 import React, { Component } from 'react';
-import List from './List';
+//import List from './List';
+import Article from './Article'
 
 class App extends Component {
   render() {
+	  
+	  const array=[{ text: "Hi",}];
+	  
+	  return (
+	  <div className="App">
+		<String str={array}/>
+	  </div>
+	  );
+  }
+}
 
-    const array = [
+export default App;
+	  
+	  
+
+  /*  const array = [
       { firstName: "April", lastName: "Bingham" },
       { firstName: "Tom", lastName: "Cruise" },
       { firstName: "Mickey", lastName: "Mouse" }
@@ -18,4 +33,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default App; */
