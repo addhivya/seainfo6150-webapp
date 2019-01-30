@@ -1,36 +1,13 @@
 import React, { Component } from 'react';
-//import List from './List';
-import Article from './Article'
+import Article from "./Article";
+import ArticleContent from "./ArticleContent";
+//import ArticleLink from "./ArticleLink";
 
-class App extends Component {
-  render() {
-	  
-	  const array=[{ text: "Hi",}];
-	  
-	  return (
-	  <div className="App">
-		<String str={array}/>
-	  </div>
-	  );
-  }
-}
+const App = () => (
+    <div className="App">
+        <Article title={"The Statue of Liberty\'s torch heads to new museum"} date={"November 22, 2018"}
+                 author={"Kate Farley"} children={<ArticleContent/>}/>
+    </div>
+);
 
 export default App;
-	  
-	  
-
-  /*  const array = [
-      { firstName: "April", lastName: "Bingham" },
-      { firstName: "Tom", lastName: "Cruise" },
-      { firstName: "Mickey", lastName: "Mouse" }
-    ];
-
-    return (
-      <div className="App">
-        <List list={array} />
-      </div>
-    );
-  }
-}
-
-export default App; */
