@@ -2,7 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const HeaderFields = ({ title, value }) => (
-    <div><b>{title}</b> : <i>{value}</i></div>
+
+    <div><b>{title}</b>: <name class="Author">&ldquo;{value}&rdquo;</name></div>
 );
 
 HeaderFields.propTypes = {

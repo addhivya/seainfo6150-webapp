@@ -1,19 +1,20 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import HeaderFields from "./HeaderFields";
+import HeaderFieldsName from "./HeaderFieldsName";
+import HeaderFieldsDate from "./HeaderFieldsDate";
+import HeaderFieldsAuthor from "./HeaderFieldsAuthor";
 
 const Article = ({ title, date, author, children }) => (
     <div>
         <header>
         {
-            <HeaderFields title ={"Title"} value={title} />
-
+            <HeaderFieldsName title ={"Title"} value={title} />
         }
         {
-            <HeaderFields title={"Date"} value={date} />
+            <HeaderFieldsDate  title={"Date"} value={date} />
         }
         {
-            <HeaderFields title={"Author"} value={author} />
+            <HeaderFieldsAuthor title={"Author"} value={author} />
         }
         </header>
         {

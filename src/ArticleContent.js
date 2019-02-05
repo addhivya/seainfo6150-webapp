@@ -1,7 +1,7 @@
 import React from 'react';
 
 const ArticleContent = () => (
-   <div>
+   <article>
         <p> The <i>Statue of Liberty's</i> original torch is getting a new home. </p>
 
         <p>Made of copper and gold so that it would shine bright, the first torch took a beating from the weather and was replaced by a replica in 1984. It's been stored in the statue's pedestal ever since.</p>
@@ -26,7 +26,7 @@ const ArticleContent = () => (
         <p>  When completed, the Statue of Liberty Museum will be 26,000 square feet of history, inspiration and deeper analysis of the statue's symbolism both in the US and around the world.</p>
 
         <p>  The <b>"inspiration gallery,"</b> which is where the torch will live, will have floor-to-ceiling glass windows looking out at Lower Manhattan, including the World Trade Center.</p>
-  </div>
+  </article>
 );
 
 ArticleContent.propTypes = {
