@@ -12,3 +12,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+
+.text {
+  font-family:"Courier New";
+}
+
+table, th, td {
+  border: 1px solid black;
+}
