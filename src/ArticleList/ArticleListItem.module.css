@@ -1,0 +1,40 @@
+.ul1 {
+    margin: 2em;
+    background-color: white;
+    border: .1em solid red;
+}
+
+.title {
+    color: red;
+    font-weight: bold;
+    font-size: 1.2em;
+    font-family: sans-serif;
+    margin-left: -1.5em;
+    margin-top: 0.5em;
+}
+
+.text {
+    margin-left: -1.7em;
+    font-family: initial;
+}
+
+.author {
+    text-align: right;
+    font-style: italic;
+    font-family: initial;
+    margin-top: 1.5em;
+}
+
+.date {
+
+    text-align: right;
+    font-family: auto;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+
+}
+
+.li_common {
+    margin-right: 1em;
+    list-style-type: none;
+}
