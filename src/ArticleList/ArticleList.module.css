@@ -1,0 +1,39 @@
+.div2 {
+    background-color: lightgray;
+    margin-left: 7em;
+    border: .1em solid lightgray;
+}
+
+.div3 {
+    background-color: white;
+    margin-left: 6em;
+    margin-right: 6em;
+    border:.05em solid;
+}
+
+.div4 {
+    background-color: #b3b1b1;
+    margin-left: 5em;
+    border: .07em dashed;
+    border-radius: .5em;
+}
+
+.commonborder{
+    margin-top: 2em;
+    width: 80%;
+    margin-bottom: 2em;
+}
+
+.li_main {
+    margin: 2em;
+    background-color: white;
+    border: .1em solid red;
+    list-style-type: none;
+    margin-left: 0em;
+    border-radius: .5em;
+    box-shadow: inset 2em 0em 3em -1em #f78181;
+}
+
+.div_under_li {
+    box-shadow: 0em 1em 1em 0em #6f6d6d;
+}
