@@ -2,41 +2,33 @@
 .title {
     color: red;
     font-weight: bold;
-    font-size: 1em;
     font-family: sans-serif;
     margin-top: 0.5em;
 }
 
 .text {
     font-family: initial;
-    font-size: .9em;
 }
 
 .author {
-    text-align: right;
     font-style: italic;
     font-family: initial;
     margin-top: 1.5em;
-    font-size: .9em;
 }
 
 .date {
-
-    text-align: right;
     font-family: auto;
     font-weight: bold;
     margin-bottom: 0.5em;
-    font-size: .9em;
-
 }
 
 .li_common {
-    margin-right: 1em;
+    margin-right: .5em;
     list-style-type: none;
+    font-size: .6em;
 }
 
 .div_main {
     display: inline-block;
-    width: 65%;
-    margin-left: 1.5em;
+    margin: .5em;
 }

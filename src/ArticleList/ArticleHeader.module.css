@@ -1,0 +1,20 @@
+.header_main {
+    padding-right: 1.2em;
+    background-color: #cc0d0d;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    padding-left: 1.2em;
+}
+.header{
+    color: white;
+    font-size: 1em;
+    display: inline;
+}
+
+.date{
+    color: #ffc3c3;
+    font-size: .5em;
+    float: right;
+    display: inline;
+    margin-top: .5em;
+}
