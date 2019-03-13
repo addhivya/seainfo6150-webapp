@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import styles from './ArticleHeader.module.css';
 
 const ArticleHeader = () => (
@@ -8,7 +7,7 @@ const ArticleHeader = () => (
             The INFO6150 News
         </div>
         <div className={styles.date}>
-            {"Wed, Feburary 20, 2019"}
+            {"Wed, February 26, 2019"}
         </div>
     </header>
 );

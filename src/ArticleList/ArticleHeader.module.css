@@ -1,4 +1,5 @@
 .header_main {
+    display: flex;
     padding-right: 1.2em;
     background-color: #cc0d0d;
     padding-top: 1.5em;
@@ -16,5 +17,13 @@
     font-size: .5em;
     float: right;
     display: inline;
+    flex: 1;
     margin-top: .5em;
+    text-align: right;
+  }
+
+@media(max-width: 55px) {
+    .header{
+        font-size: 0.5em;
+    }
 }
