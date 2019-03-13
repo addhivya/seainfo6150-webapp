@@ -18,17 +18,11 @@
     border: .07em solid #b3b1b1;
 }
 
-.commonborder{
-}
-
 .li_main {
     background-color: white;
     border: .06em solid red;
     list-style-type: none;
     box-shadow: inset 1em 0em 2em -1em #f78181;
-}
-
-.div_under_li {
 }
 
 .ul1{
